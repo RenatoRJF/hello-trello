@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.card {
+  background-color: $white-color;
+  padding: 8px;
+  box-shadow: 1px 1px 3px rgba($gray-500, 0.1);
+
+  .card__title {
+    font-size: 14px;
+    font-weight: 700;
+    color: $gray-500;
+  }
+
+  &:hover {
+    box-shadow: 2px 2px 5px rgba($gray-500, 0.2);
+  }
+}

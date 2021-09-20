@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.app__board__details {
+  padding: 32px;
+}
+
+.app__board__details__title {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.board__lists {
+  display: flex;
+}
+
+.board__lists__single {
+  margin-right: 24px;
+
+  .card {
+    width: 200px;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+}
+
+.board__lists__single__title {
+  font-size: 18px;
+  font-weight: 600;
+  color: $gray-500;
+  margin-bottom: 16px;
+}

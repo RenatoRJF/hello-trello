@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.app__dashboard {
+  padding: 32px;
+}
+
+.app__dashboard__title {
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.app__dashboard__boards {
+  display: flex;
+
+  > a {
+    text-decoration: none;
+  } 
+
+  .card {
+    margin-right: 8px;
+    width: 200px;
+  }
+}

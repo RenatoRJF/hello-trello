@@ -1,0 +1,16 @@
+.app__logo {
+  &--small img {
+    width: 40px;
+    height: 40px;
+  }
+
+  &--medium img {
+    width: 64px;
+    height: 64px;
+  }
+
+  &--large img {
+    width: 96px;
+    height: 96px;
+  }
+}

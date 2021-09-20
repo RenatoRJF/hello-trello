@@ -1,0 +1,36 @@
+@import '../../styles//variables.scss';
+
+.app__authorise {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app__authorise__card {
+  background-color: $white-color;
+  text-align: center;
+  padding: 32px;
+  margin: 0 5%;
+  max-width: 468px;
+}
+
+.app__authorise__card__welcome {
+  margin: 8px 0 4px;
+  display: block;
+}
+
+.app__authorise__card__title {
+  font-style: italic;
+}
+
+.app__authorise__card__description {
+  margin: 32px auto;
+  max-width: 80%;
+  color: $gray-300;
+}
+
+.app__authorise__card__button {
+  width: 50%;
+}
+

@@ -1,0 +1,23 @@
+@import '../../styles/variables.scss';
+
+.user__info {
+  display: flex;
+  align-items: center;
+}
+
+.user__info__details {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
+}
+
+.user__info__details__fullname {
+  font-weight: bold;
+  color: $gray-500;
+}
+
+.user__info__details__username {
+  color: $gray-300;
+  font-weight: 400;
+  font-size: 14px;
+}

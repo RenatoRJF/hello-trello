@@ -1,0 +1,36 @@
+@import '../../styles//variables.scss';
+
+.button {
+  outline: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &--default {
+    border: 1px solid $gray-200;
+    background-color: $white-color;
+    color: inherit;
+
+    &:hover {
+      background-color: $gray-100;
+      color: $gray-500
+    }
+  }
+
+  &--primary {
+    border: 0;
+    background-color: $primary-color;
+    color: $white-color;
+
+    &:hover {
+      background-color: rgba($primary-color, 0.9);
+    }
+  }
+
+  &:disabled {
+    border: 1px solid $gray-200;
+    background-color: $gray-200;
+    color: $gray-300;
+    cursor: not-allowed;
+  }
+}
